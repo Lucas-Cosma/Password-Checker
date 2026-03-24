@@ -1,10 +1,10 @@
-# 🔐 Password Strength Checker
+#  Password Strength Checker
 
 A command-line tool written in Python that analyses the strength of a password and gives instant visual feedback — right in your terminal.
 
 ---
 
-## 📸 What it looks like
+##  What it looks like
 
 ```
 ╔══════════════════════════════════╗
@@ -32,7 +32,7 @@ Enter a password: MyP@ssw0rd123
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ Checks password against 5 rules (length, uppercase, lowercase, digit, symbol)
 - ⚠️ Detects common weak passwords (e.g. `password`, `123456`)
@@ -42,7 +42,7 @@ Enter a password: MyP@ssw0rd123
 
 ---
 
-## 🚀 How to run
+##  How to run
 
 **Requirements:** Python 3 — no external libraries needed.
 
@@ -54,7 +54,7 @@ Then just type your password when prompted.
 
 ---
 
-## 🧠 How the scoring works
+##  How the scoring works
 
 | Points | Source |
 |--------|--------|
@@ -77,7 +77,7 @@ Final score is clamped between 0 and 10.
 
 ---
 
-## 📁 Project structure
+##  Project structure
 
 ```
 password-checker/
@@ -88,7 +88,7 @@ password-checker/
 
 ---
 
-## 🛠️ Built with
+##  Built with
 
 - Python 3
 - ANSI escape codes for terminal colours
@@ -96,7 +96,7 @@ password-checker/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Colours and the progress bar work in **macOS Terminal**, **iTerm2**, and any modern terminal
 - No pip installs needed — fully standard library
